@@ -2,11 +2,10 @@ package aula3_poo2;
 
 public class Cavalo extends Animal{
 	
-	
 	public Cavalo(String tipo, String cor, String porte) {
-		tipo = this.tipo;
-		cor = this.cor;
-		porte = this.porte;
+		setTipo(tipo);;
+		setCor(cor);
+		setPorte(porte);
 
 	}
 	

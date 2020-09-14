@@ -7,10 +7,22 @@ public class Passaro extends Animal {
 	
 	
 	public Passaro(String tipo, String cor, String porte) {
-		tipo = this.tipo;
-		cor = this.cor;
-		porte = this.porte;
+		setTipo(tipo);;
+		setCor(cor);
+		setPorte(porte);
 
+	}
+	
+	@Override
+	public void setPorte(String porte) {
+		// TODO Auto-generated method stub
+		super.setPorte("Pequeno");
+	}
+	
+	@Override
+	public void setTipo(String tipo) {
+		// TODO Auto-generated method stub
+		super.setTipo("Passaro");
 	}
 	
 	public Passaro() {
@@ -69,4 +81,5 @@ public class Passaro extends Animal {
 		
 		return sup;
 	}
+	
 }
