@@ -88,5 +88,6 @@ public class Animal {
 		animal.setCor(JOptionPane.showInputDialog(null, "Qual e a cor predominante do Animal"));
 		
 		JOptionPane.showMessageDialog(null, "O " + animal.getTipo() + " tem um porte "+ animal.getPorte() + " e a cor dele e " + animal.getCor() );
+		
 	}
 }
